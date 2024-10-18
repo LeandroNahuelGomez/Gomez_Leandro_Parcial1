@@ -53,6 +53,7 @@ El proyecto está compuesto por las siguientes clases y subclases:
     - `codServicio`: Código del servicio (6 caracteres, con validación).
     - `porcentajeDescuento`: Porcentaje de descuento aplicable al servicio.
     - `enPromocion`: Indica si el servicio está en promoción.
+    - `fechaReserva`: Indica si la fecha de reserva.
 - **Métodos Abstractos**:
     - `calcularPrecioFinal(LocalDate dia)`: Método abstracto para calcular el precio final del servicio, según el día.
 
